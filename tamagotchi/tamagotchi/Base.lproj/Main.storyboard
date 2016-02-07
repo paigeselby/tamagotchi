@@ -27,25 +27,16 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Yuy-0f-Wus">
-                                <rect key="frame" x="180" y="77" width="240" height="128"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="IwU-Kg-l0p"/>
-                                    <constraint firstAttribute="width" constant="240" id="MhV-6B-3Nc"/>
-                                </constraints>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F0F-Lx-ckb">
+                                <rect key="frame" x="180" y="80" width="240" height="128"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="bHR-mW-uR9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="51Z-ZP-nte"/>
-                            <constraint firstItem="Yuy-0f-Wus" firstAttribute="top" secondItem="bHR-mW-uR9" secondAttribute="bottom" constant="28" id="BsU-nu-YOs"/>
-                            <constraint firstItem="Yuy-0f-Wus" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="abg-QK-kyk"/>
                             <constraint firstItem="bHR-mW-uR9" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="rpV-0N-thf"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="dogGif" destination="Yuy-0f-Wus" id="Xp1-K0-lxo"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

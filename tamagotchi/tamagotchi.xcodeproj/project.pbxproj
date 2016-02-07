@@ -17,6 +17,10 @@
 		BFEA46CD1C670A060053944F /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEA46CC1C670A060053944F /* UIImage+Gif.swift */; };
 		BFEA46D01C670B690053944F /* fat.gif in Resources */ = {isa = PBXBuildFile; fileRef = BFEA46CE1C670B690053944F /* fat.gif */; };
 		BFEA46D11C670B690053944F /* skinny.gif in Resources */ = {isa = PBXBuildFile; fileRef = BFEA46CF1C670B690053944F /* skinny.gif */; };
+		BFEA46D31C670EC60053944F /* Full Background .png in Resources */ = {isa = PBXBuildFile; fileRef = BFEA46D21C670EC60053944F /* Full Background .png */; };
+		BFEA46D51C6710400053944F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFEA46D41C6710400053944F /* Assets.xcassets */; };
+		BFEA46D71C6714110053944F /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFEA46D61C6714110053944F /* Minecraft.ttf */; };
+		BFEA46D91C6714200053944F /* 04B_30__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = BFEA46D81C6714200053944F /* 04B_30__.TTF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		BFEA46CC1C670A060053944F /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
 		BFEA46CE1C670B690053944F /* fat.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = fat.gif; path = Assets.xcassets/fat.gif; sourceTree = "<group>"; };
 		BFEA46CF1C670B690053944F /* skinny.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = skinny.gif; path = Assets.xcassets/skinny.gif; sourceTree = "<group>"; };
+		BFEA46D21C670EC60053944F /* Full Background .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Full Background .png"; path = "Assets.xcassets/Full Background .png"; sourceTree = "<group>"; };
+		BFEA46D41C6710400053944F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFEA46D61C6714110053944F /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		BFEA46D81C6714200053944F /* 04B_30__.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = 04B_30__.TTF; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +112,10 @@
 		BFEA469C1C66CE940053944F /* tamagotchi */ = {
 			isa = PBXGroup;
 			children = (
+				BFEA46D81C6714200053944F /* 04B_30__.TTF */,
+				BFEA46D61C6714110053944F /* Minecraft.ttf */,
+				BFEA46D21C670EC60053944F /* Full Background .png */,
+				BFEA46D41C6710400053944F /* Assets.xcassets */,
 				BFEA46CE1C670B690053944F /* fat.gif */,
 				BFEA46CF1C670B690053944F /* skinny.gif */,
 				BFEA469D1C66CE940053944F /* AppDelegate.swift */,
@@ -248,7 +260,11 @@
 			files = (
 				BFEA46A81C66CE950053944F /* LaunchScreen.storyboard in Resources */,
 				BFEA46D11C670B690053944F /* skinny.gif in Resources */,
+				BFEA46D71C6714110053944F /* Minecraft.ttf in Resources */,
+				BFEA46D31C670EC60053944F /* Full Background .png in Resources */,
+				BFEA46D91C6714200053944F /* 04B_30__.TTF in Resources */,
 				BFEA46A51C66CE950053944F /* Assets.xcassets in Resources */,
+				BFEA46D51C6710400053944F /* Assets.xcassets in Resources */,
 				BFEA46D01C670B690053944F /* fat.gif in Resources */,
 				BFEA46A31C66CE950053944F /* Main.storyboard in Resources */,
 			);
