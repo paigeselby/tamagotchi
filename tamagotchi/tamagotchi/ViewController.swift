@@ -53,11 +53,27 @@ class ViewController: UIViewController {
         imageView.frame = CGRect(x: 0, y: 0, width: 375, height: 667)
         view.addSubview(imageView)
         
-        let secondViewController = self.storyboard?.instantiateViewControllerWithIdentifier("LoginViewController") as LoginViewController
-        self.navigationController?.pushViewController(secondViewController, animated: true)
+//        let button   = UIButton.buttonWithType(UIButtonType.System) as UIButton
+        let button = UIButton(type: UIButtonType.System) as UIButton
+        button.frame = CGRectMake(100, 450, 180, 70)
+        button.backgroundColor = UIColor.whiteColor()
+        button.titleLabel!.font  =  UIFont(name: "Minecraft", size: 36)
+        button.setTitle("Sign Up", forState: UIControlState.Normal)
+        button.addTarget(self, action: "actioncall:", forControlEvents: UIControlEvents.TouchUpInside)
+        self.view.addSubview(button)
+//        
+
         
 
     }
+    
+    func actioncall(Sender: UIButton!) {
+        let secondViewController:SignInViewController = SignInViewController()
+        
+        self.presentViewController(secondViewController, animated: true, completion: nil)
+        
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

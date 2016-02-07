@@ -14,6 +14,19 @@ class SignInViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+                let Gif2 = UIImage.gifWithName("skinny")
+                let imageView2 = UIImageView(image: Gif2)
+                imageView2.frame = CGRect(x: 100.0, y: 150.0, width: 222.4, height: 413.6)
+        
+                view.addSubview(imageView2)
+        
+                let textFiled = UITextField(frame: CGRectMake(20.0, 590.0, 330.0, 60.0))
+                textFiled.font = UIFont(name: "Minecraft", size: 22)
+                textFiled.text = "This is your tamagotchi, say hi!"
+                textFiled.backgroundColor = UIColor.whiteColor()
+                textFiled.borderStyle = UITextBorderStyle.Line
+                self.view.addSubview(textFiled)
     }
 
     override func didReceiveMemoryWarning() {
