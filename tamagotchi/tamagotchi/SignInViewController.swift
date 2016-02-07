@@ -20,11 +20,12 @@ class SignInViewController: UIViewController {
         imageView2.frame = CGRect(x: 100.0, y: 150.0, width: 222.4, height: 413.6)
         view.addSubview(imageView2)
         
-        let textFiled = UITextField(frame: CGRectMake(20.0, 590.0, 330.0, 60.0))
+        let textFiled = UILabel(frame: CGRectMake(40.0, 590.0, 330.0, 60.0))
         textFiled.font = UIFont(name: "Minecraft", size: 22)
-        textFiled.text = "This is your tamagotchi, say hi!"
-        textFiled.backgroundColor = UIColor.whiteColor()
-        textFiled.borderStyle = UITextBorderStyle.Line
+        textFiled.text = "This is your FitPup, say hi!"
+//        textFiled.backgroundColor = UIColor.whiteColor()
+//        textFiled.borderStyle = UITextBorderStyle.Line
+        textFiled.resignFirstResponder()
         self.view.addSubview(textFiled)
         
         let buttonBack = UIButton(type: UIButtonType.System) as UIButton
@@ -42,6 +43,14 @@ class SignInViewController: UIViewController {
         button.setTitle("-->", forState: UIControlState.Normal)
         button.addTarget(self, action: "actioncall2:", forControlEvents: UIControlEvents.TouchUpInside)
         self.view.addSubview(button)
+        
+        let buttonb = UIButton(type: UIButtonType.System) as UIButton
+        buttonb.frame = CGRectMake(40, 40, 350, 700)
+        //        button.backgroundColor = UIColor.whiteColor()
+        buttonb.titleLabel!.font  =  UIFont(name: "System", size: 64)
+        buttonb.setTitle("", forState: UIControlState.Normal)
+        buttonb.addTarget(self, action: "actioncall2:", forControlEvents: UIControlEvents.TouchUpInside)
+        self.view.addSubview(buttonb)
         
         
     }

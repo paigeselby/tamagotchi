@@ -15,19 +15,33 @@ class PermViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        let textFiled = UITextView(frame: CGRectMake(40.0, 190.0, 330.0, 60.0))
+        let textFiled = UILabel(frame: CGRectMake(40.0, 190.0, 330.0, 60.0))
         textFiled.font = UIFont(name: "Minecraft", size: 28)
-        textFiled.text = "Tamagotchi is real! "
+        textFiled.text = "FitPup is here! "
 //        textFiled.backgroundColor = UIColor.whiteColor()
 //        textFiled.borderStyle = UITextBorderStyle.Line
         self.view.addSubview(textFiled)
         
-        let textFiled1 = UITextView(frame: CGRectMake(40.0, 240.0, 330.0, 120.0))
+        let textFiled1 = UILabel(frame: CGRectMake(40.0, 230.0, 330.0, 120.0))
         textFiled1.font = UIFont(name: "Minecraft", size: 28)
-        textFiled1.text = "Tamagotchi needs permission to access your Health data."
+        textFiled1.text = "FitPup needs"
 //        textFiled1.backgroundColor = UIColor.whiteColor()
         //        textFiled.borderStyle = UITextBorderStyle.Line
         self.view.addSubview(textFiled1)
+        
+        let textFiled12 = UILabel(frame: CGRectMake(40.0, 260.0, 330.0, 120.0))
+        textFiled12.font = UIFont(name: "Minecraft", size: 28)
+        textFiled12.text = "permission to access"
+        //        textFiled1.backgroundColor = UIColor.whiteColor()
+        //        textFiled.borderStyle = UITextBorderStyle.Line
+        self.view.addSubview(textFiled12)
+        
+        let textFiled13 = UILabel(frame: CGRectMake(40.0, 290.0, 330.0, 120.0))
+        textFiled13.font = UIFont(name: "Minecraft", size: 28)
+        textFiled13.text = "your Health data."
+        //        textFiled1.backgroundColor = UIColor.whiteColor()
+        //        textFiled.borderStyle = UITextBorderStyle.Line
+        self.view.addSubview(textFiled13)
         
         
         let buttonBacks = UIButton(type: UIButtonType.System) as UIButton
@@ -78,6 +92,24 @@ class PermViewController: UIViewController {
     func actioncall2(Sender: UIButton!) {
         let secondViewController:SignInViewController = SignInViewController()
         self.presentViewController(secondViewController, animated: true, completion: nil)
+    }
+    
+    func actioncallSS(Sender: UIButton!) {
+        let alertController = UIAlertController(title: "We took a screenshot!", message: "", preferredStyle: .Alert)
+        
+        let cancelAction = UIAlertAction(title: "Cancel", style: .Cancel) { (action) in
+            // ...
+        }
+        alertController.addAction(cancelAction)
+        
+        let OKAction = UIAlertAction(title: "OK", style: .Default) { (action) in
+            // ...
+        }
+        alertController.addAction(OKAction)
+        
+        self.presentViewController(alertController, animated: true) {
+            // ...
+        }
     }
     
     override func shouldAutorotate() -> Bool {

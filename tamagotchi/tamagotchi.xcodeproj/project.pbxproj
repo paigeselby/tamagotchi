@@ -36,7 +36,6 @@
 		BFEA46F31C67981B0053944F /* skull.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEA46F21C67981B0053944F /* skull.png */; };
 		BFEA46F51C6798A60053944F /* Main4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEA46F41C6798A60053944F /* Main4ViewController.swift */; };
 		BFEA46F71C6799420053944F /* Main5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEA46F61C6799420053944F /* Main5ViewController.swift */; };
-		BFEA46F91C679BD00053944F /* dogIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFEA46F81C679BD00053944F /* dogIcon.xcassets */; };
 		BFEA46FB1C679BEC0053944F /* dogIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEA46FA1C679BEC0053944F /* dogIcon.png */; };
 /* End PBXBuildFile section */
 
@@ -93,7 +92,6 @@
 		BFEA46F21C67981B0053944F /* skull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skull.png; sourceTree = "<group>"; };
 		BFEA46F41C6798A60053944F /* Main4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main4ViewController.swift; sourceTree = "<group>"; };
 		BFEA46F61C6799420053944F /* Main5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main5ViewController.swift; sourceTree = "<group>"; };
-		BFEA46F81C679BD00053944F /* dogIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = dogIcon.xcassets; sourceTree = "<group>"; };
 		BFEA46FA1C679BEC0053944F /* dogIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dogIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -174,7 +172,6 @@
 				BFEA46EE1C6797DB0053944F /* Main3ViewController.swift */,
 				BFEA46F41C6798A60053944F /* Main4ViewController.swift */,
 				BFEA46F61C6799420053944F /* Main5ViewController.swift */,
-				BFEA46F81C679BD00053944F /* dogIcon.xcassets */,
 			);
 			path = tamagotchi;
 			sourceTree = "<group>";
@@ -322,7 +319,6 @@
 				BFEA46D91C6714200053944F /* 04B_30__.TTF in Resources */,
 				BFEA46A51C66CE950053944F /* Assets.xcassets in Resources */,
 				BFEA46D51C6710400053944F /* Assets.xcassets in Resources */,
-				BFEA46F91C679BD00053944F /* dogIcon.xcassets in Resources */,
 				BFEA46D01C670B690053944F /* fat.gif in Resources */,
 				BFEA46FB1C679BEC0053944F /* dogIcon.png in Resources */,
 				BFEA46E51C67911B0053944F /* Camera.png in Resources */,

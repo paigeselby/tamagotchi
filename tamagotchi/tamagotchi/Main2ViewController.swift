@@ -29,8 +29,16 @@ class Main2ViewController: UIViewController {
         let imageNamec = "Camera.png"
         let imagec = UIImage(named: imageNamec)
         let imageViewc = UIImageView(image: imagec!)
-        imageViewc.frame = CGRect(x: 270, y: 70, width: 55, height: 45)
+        imageViewc.frame = CGRect(x: 300, y: 40, width: 55, height: 45)
         view.addSubview(imageViewc)
+        
+        let buttonBacks = UIButton(type: UIButtonType.System) as UIButton
+        buttonBacks.frame = CGRectMake(300, 40, 55, 45)
+        //        button.backgroundColor = UIColor.whiteColor()
+        buttonBacks.titleLabel!.font  =  UIFont(name: "System", size: 64)
+        buttonBacks.setTitle("", forState: UIControlState.Normal)
+        buttonBacks.addTarget(self, action: "actioncallSS:", forControlEvents: UIControlEvents.TouchUpInside)
+        self.view.addSubview(buttonBacks)
         
         
         let buttonBack = UIButton(type: UIButtonType.System) as UIButton
@@ -41,13 +49,13 @@ class Main2ViewController: UIViewController {
         buttonBack.addTarget(self, action: "actioncall:", forControlEvents: UIControlEvents.TouchUpInside)
         self.view.addSubview(buttonBack)
         
-        let button = UIButton(type: UIButtonType.System) as UIButton
-        button.frame = CGRectMake(315, 20, 40, 70)
-        //        button.backgroundColor = UIColor.whiteColor()
-        button.titleLabel!.font  =  UIFont(name: "System", size: 64)
-        button.setTitle("-->", forState: UIControlState.Normal)
-        button.addTarget(self, action: "actioncall2:", forControlEvents: UIControlEvents.TouchUpInside)
-        self.view.addSubview(button)
+//        let button = UIButton(type: UIButtonType.System) as UIButton
+//        button.frame = CGRectMake(315, 20, 40, 70)
+//        //        button.backgroundColor = UIColor.whiteColor()
+//        button.titleLabel!.font  =  UIFont(name: "System", size: 64)
+//        button.setTitle("-->", forState: UIControlState.Normal)
+//        button.addTarget(self, action: "actioncall2:", forControlEvents: UIControlEvents.TouchUpInside)
+//        self.view.addSubview(button)
         
 //        let imageNamecn = "new chat.png"
 //        let imagecn = UIImage(named: imageNamecn)
@@ -67,12 +75,34 @@ class Main2ViewController: UIViewController {
         imageViewh.frame = CGRect(x: 230, y: 150, width: 70, height: 70)
         view.addSubview(imageViewh)
         
-        let textFiled1 = UITextView(frame: CGRectMake(0.0, 555.0, 380.0, 120.0))
-        textFiled1.font = UIFont(name: "Minecraft", size: 36)
-        textFiled1.text = "Today we walked 800 steps of 800 steps!"
-        //        textFiled1.backgroundColor = UIColor.whiteColor()
+        let textFiled10 = UILabel(frame: CGRectMake(0.0, 550.0, 380.0, 200.0))
+        textFiled10.font = UIFont(name: "Minecraft", size: 30)
+//        textFiled1.text = "Today we walked 847"
+        textFiled10.backgroundColor = UIColor.whiteColor()
+        //        textFiled.borderStyle = UITextBorderStyle.Line
+        self.view.addSubview(textFiled10)
+        
+        let textFiled1 = UILabel(frame: CGRectMake(20.0, 550.0, 380.0, 80.0))
+        textFiled1.font = UIFont(name: "Minecraft", size: 30)
+        textFiled1.text = "Today we walked 847"
+        textFiled1.backgroundColor = UIColor.whiteColor()
         //        textFiled.borderStyle = UITextBorderStyle.Line
         self.view.addSubview(textFiled1)
+        
+        let textFiled12 = UILabel(frame: CGRectMake(20.0, 598.0, 380.0, 80.0))
+        textFiled12.font = UIFont(name: "Minecraft", size: 30)
+        textFiled12.text = "steps out of 800 steps!"
+        textFiled12.backgroundColor = UIColor.whiteColor()
+        //        textFiled.borderStyle = UITextBorderStyle.Line
+        self.view.addSubview(textFiled12)
+        
+//        let buttonb = UIButton(type: UIButtonType.System) as UIButton
+//        buttonb.frame = CGRectMake(40, 40, 350, 700)
+//        //        button.backgroundColor = UIColor.whiteColor()
+//        buttonb.titleLabel!.font  =  UIFont(name: "System", size: 64)
+//        buttonb.setTitle("", forState: UIControlState.Normal)
+//        buttonb.addTarget(self, action: "actioncall:", forControlEvents: UIControlEvents.TouchUpInside)
+//        self.view.addSubview(buttonb)
     }
     
     
@@ -97,6 +127,24 @@ class Main2ViewController: UIViewController {
     
     override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
         return [UIInterfaceOrientationMask.Portrait, UIInterfaceOrientationMask.PortraitUpsideDown]
+    }
+    
+    func actioncallSS(Sender: UIButton!) {
+        let alertController = UIAlertController(title: "We took a screenshot!", message: "", preferredStyle: .Alert)
+        
+        let cancelAction = UIAlertAction(title: "Cancel", style: .Cancel) { (action) in
+            // ...
+        }
+        alertController.addAction(cancelAction)
+        
+        let OKAction = UIAlertAction(title: "OK", style: .Default) { (action) in
+            // ...
+        }
+        alertController.addAction(OKAction)
+        
+        self.presentViewController(alertController, animated: true) {
+            // ...
+        }
     }
     
     
