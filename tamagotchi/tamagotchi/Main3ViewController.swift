@@ -1,5 +1,5 @@
 //
-//  Main2ViewController.swift
+//  Main3ViewController.swift
 //  tamagotchi
 //
 //  Created by Selby on 2/7/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Main2ViewController: UIViewController {
+class Main3ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -49,19 +49,19 @@ class Main2ViewController: UIViewController {
         button.addTarget(self, action: "actioncall2:", forControlEvents: UIControlEvents.TouchUpInside)
         self.view.addSubview(button)
         
-//        let imageNamecn = "new chat.png"
-//        let imagecn = UIImage(named: imageNamecn)
-//        let imageViewcn = UIImageView(image: imagecn!)
-//        imageViewcn.frame = CGRect(x: 30, y: 575, width: 80, height: 65)
-//        view.addSubview(imageViewcn)
-//        
-//        let imageNamef = "flag.png"
-//        let imagef = UIImage(named: imageNamef)
-//        let imageViewf = UIImageView(image: imagef!)
-//        imageViewf.frame = CGRect(x: 270, y: 575, width: 80, height: 65)
-//        view.addSubview(imageViewf)
+        //        let imageNamecn = "new chat.png"
+        //        let imagecn = UIImage(named: imageNamecn)
+        //        let imageViewcn = UIImageView(image: imagecn!)
+        //        imageViewcn.frame = CGRect(x: 30, y: 575, width: 80, height: 65)
+        //        view.addSubview(imageViewcn)
+        //
+        //        let imageNamef = "flag.png"
+        //        let imagef = UIImage(named: imageNamef)
+        //        let imageViewf = UIImageView(image: imagef!)
+        //        imageViewf.frame = CGRect(x: 270, y: 575, width: 80, height: 65)
+        //        view.addSubview(imageViewf)
         
-        let imageNameh = "heart.png"
+        let imageNameh = "Music note.png"
         let imageh = UIImage(named: imageNameh)
         let imageViewh = UIImageView(image: imageh!)
         imageViewh.frame = CGRect(x: 230, y: 150, width: 70, height: 70)
@@ -69,7 +69,7 @@ class Main2ViewController: UIViewController {
         
         let textFiled1 = UITextView(frame: CGRectMake(0.0, 555.0, 380.0, 120.0))
         textFiled1.font = UIFont(name: "Minecraft", size: 36)
-        textFiled1.text = "Today we walked 800 steps of 800 steps!"
+        textFiled1.text = "Today we walked 300 steps of 800 steps!"
         //        textFiled1.backgroundColor = UIColor.whiteColor()
         //        textFiled.borderStyle = UITextBorderStyle.Line
         self.view.addSubview(textFiled1)
@@ -77,12 +77,12 @@ class Main2ViewController: UIViewController {
     
     
     func actioncall(Sender: UIButton!) {
-        let secondViewController:MainViewController = MainViewController()
+        let secondViewController:Main2ViewController = Main2ViewController()
         self.presentViewController(secondViewController, animated: true, completion: nil)
     }
     
     func actioncall2(Sender: UIButton!) {
-        let secondViewController:Main3ViewController = Main3ViewController()
+        let secondViewController:Main2ViewController = Main2ViewController()
         self.presentViewController(secondViewController, animated: true, completion: nil)
     }
     
@@ -99,16 +99,15 @@ class Main2ViewController: UIViewController {
         return [UIInterfaceOrientationMask.Portrait, UIInterfaceOrientationMask.PortraitUpsideDown]
     }
     
-    
+
     /*
     // MARK: - Navigation
-    
+
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-    // Get the new view controller using segue.destinationViewController.
-    // Pass the selected object to the new view controller.
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
     }
     */
-
 
 }

@@ -31,6 +31,9 @@
 		BFEA46E91C6792D10053944F /* flag.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEA46E81C6792D10053944F /* flag.png */; };
 		BFEA46EB1C6794A30053944F /* Main2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEA46EA1C6794A30053944F /* Main2ViewController.swift */; };
 		BFEA46ED1C6795EC0053944F /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEA46EC1C6795EC0053944F /* heart.png */; };
+		BFEA46EF1C6797DB0053944F /* Main3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEA46EE1C6797DB0053944F /* Main3ViewController.swift */; };
+		BFEA46F11C6798130053944F /* Music note.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEA46F01C6798130053944F /* Music note.png */; };
+		BFEA46F31C67981B0053944F /* skull.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEA46F21C67981B0053944F /* skull.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +84,9 @@
 		BFEA46E81C6792D10053944F /* flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flag.png; sourceTree = "<group>"; };
 		BFEA46EA1C6794A30053944F /* Main2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main2ViewController.swift; sourceTree = "<group>"; };
 		BFEA46EC1C6795EC0053944F /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		BFEA46EE1C6797DB0053944F /* Main3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main3ViewController.swift; sourceTree = "<group>"; };
+		BFEA46F01C6798130053944F /* Music note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Music note.png"; sourceTree = "<group>"; };
+		BFEA46F21C67981B0053944F /* skull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skull.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +138,8 @@
 		BFEA469C1C66CE940053944F /* tamagotchi */ = {
 			isa = PBXGroup;
 			children = (
+				BFEA46F21C67981B0053944F /* skull.png */,
+				BFEA46F01C6798130053944F /* Music note.png */,
 				BFEA46EC1C6795EC0053944F /* heart.png */,
 				BFEA46E81C6792D10053944F /* flag.png */,
 				BFEA46E61C6791AE0053944F /* new chat.png */,
@@ -154,6 +162,7 @@
 				BFEA46DE1C6786E70053944F /* MainViewController.swift */,
 				BFEA46E21C678A4D0053944F /* PermViewController.swift */,
 				BFEA46EA1C6794A30053944F /* Main2ViewController.swift */,
+				BFEA46EE1C6797DB0053944F /* Main3ViewController.swift */,
 			);
 			path = tamagotchi;
 			sourceTree = "<group>";
@@ -296,12 +305,14 @@
 				BFEA46D71C6714110053944F /* Minecraft.ttf in Resources */,
 				BFEA46D31C670EC60053944F /* Full Background .png in Resources */,
 				BFEA46ED1C6795EC0053944F /* heart.png in Resources */,
+				BFEA46F11C6798130053944F /* Music note.png in Resources */,
 				BFEA46E71C6791AE0053944F /* new chat.png in Resources */,
 				BFEA46D91C6714200053944F /* 04B_30__.TTF in Resources */,
 				BFEA46A51C66CE950053944F /* Assets.xcassets in Resources */,
 				BFEA46D51C6710400053944F /* Assets.xcassets in Resources */,
 				BFEA46D01C670B690053944F /* fat.gif in Resources */,
 				BFEA46E51C67911B0053944F /* Camera.png in Resources */,
+				BFEA46F31C67981B0053944F /* skull.png in Resources */,
 				BFEA46A31C66CE950053944F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,6 +341,7 @@
 				BFEA46DB1C671E700053944F /* SignInViewController.swift in Sources */,
 				BFEA46CD1C670A060053944F /* UIImage+Gif.swift in Sources */,
 				BFEA46E31C678A4D0053944F /* PermViewController.swift in Sources */,
+				BFEA46EF1C6797DB0053944F /* Main3ViewController.swift in Sources */,
 				BFEA46A01C66CE940053944F /* ViewController.swift in Sources */,
 				BFEA469E1C66CE940053944F /* AppDelegate.swift in Sources */,
 				BFEA46EB1C6794A30053944F /* Main2ViewController.swift in Sources */,
