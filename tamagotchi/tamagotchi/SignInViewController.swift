@@ -31,15 +31,15 @@ class SignInViewController: UIViewController {
         buttonBack.frame = CGRectMake(20, 20, 40, 70)
 //        button.backgroundColor = UIColor.whiteColor()
         buttonBack.titleLabel!.font  =  UIFont(name: "System", size: 64)
-        buttonBack.setTitle("<---", forState: UIControlState.Normal)
+        buttonBack.setTitle("<--", forState: UIControlState.Normal)
         buttonBack.addTarget(self, action: "actioncall:", forControlEvents: UIControlEvents.TouchUpInside)
         self.view.addSubview(buttonBack)
 
         let button = UIButton(type: UIButtonType.System) as UIButton
-        button.frame = CGRectMake(310, 20, 40, 70)
+        button.frame = CGRectMake(315, 20, 40, 70)
         //        button.backgroundColor = UIColor.whiteColor()
         button.titleLabel!.font  =  UIFont(name: "System", size: 64)
-        button.setTitle("--->", forState: UIControlState.Normal)
+        button.setTitle("-->", forState: UIControlState.Normal)
         button.addTarget(self, action: "actioncall2:", forControlEvents: UIControlEvents.TouchUpInside)
         self.view.addSubview(button)
         
@@ -59,6 +59,14 @@ class SignInViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func shouldAutorotate() -> Bool {
+        return false
+    }
+    
+    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+        return [UIInterfaceOrientationMask.Portrait, UIInterfaceOrientationMask.PortraitUpsideDown]
     }
     
 

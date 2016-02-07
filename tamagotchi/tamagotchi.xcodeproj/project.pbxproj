@@ -26,6 +26,9 @@
 		BFEA46DF1C6786E70053944F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEA46DE1C6786E70053944F /* MainViewController.swift */; };
 		BFEA46E11C67893F0053944F /* Full Background .png in Resources */ = {isa = PBXBuildFile; fileRef = BFEA46E01C67893F0053944F /* Full Background .png */; };
 		BFEA46E31C678A4D0053944F /* PermViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEA46E21C678A4D0053944F /* PermViewController.swift */; };
+		BFEA46E51C67911B0053944F /* Camera.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEA46E41C67911B0053944F /* Camera.png */; };
+		BFEA46E71C6791AE0053944F /* new chat.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEA46E61C6791AE0053944F /* new chat.png */; };
+		BFEA46E91C6792D10053944F /* flag.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEA46E81C6792D10053944F /* flag.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +74,9 @@
 		BFEA46DE1C6786E70053944F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		BFEA46E01C67893F0053944F /* Full Background .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Full Background .png"; sourceTree = "<group>"; };
 		BFEA46E21C678A4D0053944F /* PermViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PermViewController.swift; sourceTree = "<group>"; };
+		BFEA46E41C67911B0053944F /* Camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Camera.png; sourceTree = "<group>"; };
+		BFEA46E61C6791AE0053944F /* new chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new chat.png"; sourceTree = "<group>"; };
+		BFEA46E81C6792D10053944F /* flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flag.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +128,9 @@
 		BFEA469C1C66CE940053944F /* tamagotchi */ = {
 			isa = PBXGroup;
 			children = (
+				BFEA46E81C6792D10053944F /* flag.png */,
+				BFEA46E61C6791AE0053944F /* new chat.png */,
+				BFEA46E41C67911B0053944F /* Camera.png */,
 				BFEA46E01C67893F0053944F /* Full Background .png */,
 				BFEA46DC1C671E950053944F /* Welcome Page.png */,
 				BFEA46D81C6714200053944F /* 04B_30__.TTF */,
@@ -276,13 +285,16 @@
 				BFEA46A81C66CE950053944F /* LaunchScreen.storyboard in Resources */,
 				BFEA46D11C670B690053944F /* skinny.gif in Resources */,
 				BFEA46E11C67893F0053944F /* Full Background .png in Resources */,
+				BFEA46E91C6792D10053944F /* flag.png in Resources */,
 				BFEA46DD1C671E950053944F /* Welcome Page.png in Resources */,
 				BFEA46D71C6714110053944F /* Minecraft.ttf in Resources */,
 				BFEA46D31C670EC60053944F /* Full Background .png in Resources */,
+				BFEA46E71C6791AE0053944F /* new chat.png in Resources */,
 				BFEA46D91C6714200053944F /* 04B_30__.TTF in Resources */,
 				BFEA46A51C66CE950053944F /* Assets.xcassets in Resources */,
 				BFEA46D51C6710400053944F /* Assets.xcassets in Resources */,
 				BFEA46D01C670B690053944F /* fat.gif in Resources */,
+				BFEA46E51C67911B0053944F /* Camera.png in Resources */,
 				BFEA46A31C66CE950053944F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

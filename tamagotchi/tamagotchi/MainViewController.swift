@@ -26,22 +26,42 @@ class MainViewController: UIViewController {
         imageView1.frame = CGRect(x: 100.0, y: 150.0, width: 189.6, height: 310.2)
         view.addSubview(imageView1)
         
+        let imageNamec = "Camera.png"
+        let imagec = UIImage(named: imageNamec)
+        let imageViewc = UIImageView(image: imagec!)
+        imageViewc.frame = CGRect(x: 270, y: 70, width: 75, height: 65)
+        view.addSubview(imageViewc)
+        
         
         let buttonBack = UIButton(type: UIButtonType.System) as UIButton
         buttonBack.frame = CGRectMake(20, 20, 40, 70)
         //        button.backgroundColor = UIColor.whiteColor()
         buttonBack.titleLabel!.font  =  UIFont(name: "System", size: 64)
-        buttonBack.setTitle("<---", forState: UIControlState.Normal)
+        buttonBack.setTitle("<--", forState: UIControlState.Normal)
         buttonBack.addTarget(self, action: "actioncall:", forControlEvents: UIControlEvents.TouchUpInside)
         self.view.addSubview(buttonBack)
         
         let button = UIButton(type: UIButtonType.System) as UIButton
-        button.frame = CGRectMake(310, 20, 40, 70)
+        button.frame = CGRectMake(315, 20, 40, 70)
         //        button.backgroundColor = UIColor.whiteColor()
         button.titleLabel!.font  =  UIFont(name: "System", size: 64)
-        button.setTitle("--->", forState: UIControlState.Normal)
+        button.setTitle("-->", forState: UIControlState.Normal)
         button.addTarget(self, action: "actioncall2:", forControlEvents: UIControlEvents.TouchUpInside)
         self.view.addSubview(button)
+        
+        
+        
+        let imageNamecn = "new chat.png"
+        let imagecn = UIImage(named: imageNamecn)
+        let imageViewcn = UIImageView(image: imagecn!)
+        imageViewcn.frame = CGRect(x: 30, y: 575, width: 80, height: 65)
+        view.addSubview(imageViewcn)
+        
+        let imageNamef = "flag.png"
+        let imagef = UIImage(named: imageNamef)
+        let imageViewf = UIImageView(image: imagef!)
+        imageViewf.frame = CGRect(x: 270, y: 575, width: 80, height: 65)
+        view.addSubview(imageViewf)
     }
     
     
@@ -62,6 +82,14 @@ class MainViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func shouldAutorotate() -> Bool {
+        return false
+    }
+    
+    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+        return [UIInterfaceOrientationMask.Portrait, UIInterfaceOrientationMask.PortraitUpsideDown]
     }
     
 
