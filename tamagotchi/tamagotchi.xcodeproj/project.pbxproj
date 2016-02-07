@@ -29,6 +29,8 @@
 		BFEA46E51C67911B0053944F /* Camera.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEA46E41C67911B0053944F /* Camera.png */; };
 		BFEA46E71C6791AE0053944F /* new chat.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEA46E61C6791AE0053944F /* new chat.png */; };
 		BFEA46E91C6792D10053944F /* flag.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEA46E81C6792D10053944F /* flag.png */; };
+		BFEA46EB1C6794A30053944F /* Main2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEA46EA1C6794A30053944F /* Main2ViewController.swift */; };
+		BFEA46ED1C6795EC0053944F /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEA46EC1C6795EC0053944F /* heart.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +79,8 @@
 		BFEA46E41C67911B0053944F /* Camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Camera.png; sourceTree = "<group>"; };
 		BFEA46E61C6791AE0053944F /* new chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new chat.png"; sourceTree = "<group>"; };
 		BFEA46E81C6792D10053944F /* flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flag.png; sourceTree = "<group>"; };
+		BFEA46EA1C6794A30053944F /* Main2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main2ViewController.swift; sourceTree = "<group>"; };
+		BFEA46EC1C6795EC0053944F /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +132,7 @@
 		BFEA469C1C66CE940053944F /* tamagotchi */ = {
 			isa = PBXGroup;
 			children = (
+				BFEA46EC1C6795EC0053944F /* heart.png */,
 				BFEA46E81C6792D10053944F /* flag.png */,
 				BFEA46E61C6791AE0053944F /* new chat.png */,
 				BFEA46E41C67911B0053944F /* Camera.png */,
@@ -148,6 +153,7 @@
 				BFEA46DA1C671E700053944F /* SignInViewController.swift */,
 				BFEA46DE1C6786E70053944F /* MainViewController.swift */,
 				BFEA46E21C678A4D0053944F /* PermViewController.swift */,
+				BFEA46EA1C6794A30053944F /* Main2ViewController.swift */,
 			);
 			path = tamagotchi;
 			sourceTree = "<group>";
@@ -289,6 +295,7 @@
 				BFEA46DD1C671E950053944F /* Welcome Page.png in Resources */,
 				BFEA46D71C6714110053944F /* Minecraft.ttf in Resources */,
 				BFEA46D31C670EC60053944F /* Full Background .png in Resources */,
+				BFEA46ED1C6795EC0053944F /* heart.png in Resources */,
 				BFEA46E71C6791AE0053944F /* new chat.png in Resources */,
 				BFEA46D91C6714200053944F /* 04B_30__.TTF in Resources */,
 				BFEA46A51C66CE950053944F /* Assets.xcassets in Resources */,
@@ -325,6 +332,7 @@
 				BFEA46E31C678A4D0053944F /* PermViewController.swift in Sources */,
 				BFEA46A01C66CE940053944F /* ViewController.swift in Sources */,
 				BFEA469E1C66CE940053944F /* AppDelegate.swift in Sources */,
+				BFEA46EB1C6794A30053944F /* Main2ViewController.swift in Sources */,
 				BFEA46DF1C6786E70053944F /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
