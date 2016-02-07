@@ -35,6 +35,7 @@
 		BFEA46F11C6798130053944F /* Music note.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEA46F01C6798130053944F /* Music note.png */; };
 		BFEA46F31C67981B0053944F /* skull.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEA46F21C67981B0053944F /* skull.png */; };
 		BFEA46F51C6798A60053944F /* Main4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEA46F41C6798A60053944F /* Main4ViewController.swift */; };
+		BFEA46F71C6799420053944F /* Main5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEA46F61C6799420053944F /* Main5ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		BFEA46F01C6798130053944F /* Music note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Music note.png"; sourceTree = "<group>"; };
 		BFEA46F21C67981B0053944F /* skull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skull.png; sourceTree = "<group>"; };
 		BFEA46F41C6798A60053944F /* Main4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main4ViewController.swift; sourceTree = "<group>"; };
+		BFEA46F61C6799420053944F /* Main5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main5ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 				BFEA46EA1C6794A30053944F /* Main2ViewController.swift */,
 				BFEA46EE1C6797DB0053944F /* Main3ViewController.swift */,
 				BFEA46F41C6798A60053944F /* Main4ViewController.swift */,
+				BFEA46F61C6799420053944F /* Main5ViewController.swift */,
 			);
 			path = tamagotchi;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 				BFEA46A01C66CE940053944F /* ViewController.swift in Sources */,
 				BFEA469E1C66CE940053944F /* AppDelegate.swift in Sources */,
 				BFEA46EB1C6794A30053944F /* Main2ViewController.swift in Sources */,
+				BFEA46F71C6799420053944F /* Main5ViewController.swift in Sources */,
 				BFEA46F51C6798A60053944F /* Main4ViewController.swift in Sources */,
 				BFEA46DF1C6786E70053944F /* MainViewController.swift in Sources */,
 			);

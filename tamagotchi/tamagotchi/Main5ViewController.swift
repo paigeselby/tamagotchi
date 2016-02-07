@@ -1,5 +1,5 @@
 //
-//  Main4ViewController.swift
+//  Main5ViewController.swift
 //  tamagotchi
 //
 //  Created by Selby on 2/7/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Main4ViewController: UIViewController {
+class Main5ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +21,7 @@ class Main4ViewController: UIViewController {
         imageView.frame = CGRect(x: 0, y: 0, width: 375, height: 667)
         view.addSubview(imageView)
         
-        let Gif = UIImage.gifWithName("skinny")
+        let Gif = UIImage.gifWithName("fat")
         let imageView1 = UIImageView(image: Gif)
         imageView1.frame = CGRect(x: 100.0, y: 150.0, width: 189.6, height: 310.2)
         view.addSubview(imageView1)
@@ -44,8 +44,8 @@ class Main4ViewController: UIViewController {
         let button = UIButton(type: UIButtonType.System) as UIButton
         button.frame = CGRectMake(315, 20, 40, 70)
         //        button.backgroundColor = UIColor.whiteColor()
-        button.titleLabel!.font  =  UIFont(name: "System", size: 64)
-        button.setTitle("-->", forState: UIControlState.Normal)
+        button.titleLabel!.font  =  UIFont(name: "Minecraft", size: 16)
+        button.setTitle("start", forState: UIControlState.Normal)
         button.addTarget(self, action: "actioncall2:", forControlEvents: UIControlEvents.TouchUpInside)
         self.view.addSubview(button)
         
@@ -61,15 +61,15 @@ class Main4ViewController: UIViewController {
         //        imageViewf.frame = CGRect(x: 270, y: 575, width: 80, height: 65)
         //        view.addSubview(imageViewf)
         
-        let imageNameh = "heart.png"
+        let imageNameh = "skull.png"
         let imageh = UIImage(named: imageNameh)
         let imageViewh = UIImageView(image: imageh!)
-        imageViewh.frame = CGRect(x: 230, y: 150, width: 70, height: 70)
+        imageViewh.frame = CGRect(x: 250, y: 150, width: 70, height: 70)
         view.addSubview(imageViewh)
         
         let textFiled1 = UITextView(frame: CGRectMake(0.0, 555.0, 380.0, 120.0))
         textFiled1.font = UIFont(name: "Minecraft", size: 36)
-        textFiled1.text = "Keep at it and you have a hot bod!"
+        textFiled1.text = "Exercise more or I will EXPLODE..."
         //        textFiled1.backgroundColor = UIColor.whiteColor()
         //        textFiled.borderStyle = UITextBorderStyle.Line
         self.view.addSubview(textFiled1)
@@ -77,12 +77,12 @@ class Main4ViewController: UIViewController {
     
     
     func actioncall(Sender: UIButton!) {
-        let secondViewController:Main3ViewController = Main3ViewController()
+        let secondViewController:Main4ViewController = Main4ViewController()
         self.presentViewController(secondViewController, animated: true, completion: nil)
     }
     
     func actioncall2(Sender: UIButton!) {
-        let secondViewController:Main5ViewController = Main5ViewController()
+        let secondViewController:SignInViewController = SignInViewController()
         self.presentViewController(secondViewController, animated: true, completion: nil)
     }
     

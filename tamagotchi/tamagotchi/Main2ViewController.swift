@@ -29,7 +29,7 @@ class Main2ViewController: UIViewController {
         let imageNamec = "Camera.png"
         let imagec = UIImage(named: imageNamec)
         let imageViewc = UIImageView(image: imagec!)
-        imageViewc.frame = CGRect(x: 270, y: 70, width: 75, height: 65)
+        imageViewc.frame = CGRect(x: 270, y: 70, width: 55, height: 45)
         view.addSubview(imageViewc)
         
         
