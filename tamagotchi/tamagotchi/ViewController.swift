@@ -39,8 +39,10 @@ class ViewController: UIViewController {
         view.addSubview(imageView2)
         
         let textFiled = UITextField(frame: CGRectMake(20.0, 30.0, 100.0, 33.0))
+        textFiled.font = UIFont(name: "Minecraft", size: 24)
+        textFiled.text = "Hello!"
         textFiled.backgroundColor = UIColor.redColor()
-        textFiled.borderStyle = UITextBorderStyle.Line
+//        textFiled.borderStyle = UITextBorderStyle.Line
         self.view.addSubview(textFiled)
         
     }
