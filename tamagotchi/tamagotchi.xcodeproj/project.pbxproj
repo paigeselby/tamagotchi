@@ -21,6 +21,8 @@
 		BFEA46D51C6710400053944F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFEA46D41C6710400053944F /* Assets.xcassets */; };
 		BFEA46D71C6714110053944F /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFEA46D61C6714110053944F /* Minecraft.ttf */; };
 		BFEA46D91C6714200053944F /* 04B_30__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = BFEA46D81C6714200053944F /* 04B_30__.TTF */; };
+		BFEA46DB1C671E700053944F /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEA46DA1C671E700053944F /* SignInViewController.swift */; };
+		BFEA46DD1C671E950053944F /* Welcome Page.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEA46DC1C671E950053944F /* Welcome Page.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		BFEA46D41C6710400053944F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFEA46D61C6714110053944F /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 		BFEA46D81C6714200053944F /* 04B_30__.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = 04B_30__.TTF; sourceTree = "<group>"; };
+		BFEA46DA1C671E700053944F /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		BFEA46DC1C671E950053944F /* Welcome Page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Welcome Page.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,7 @@
 		BFEA469C1C66CE940053944F /* tamagotchi */ = {
 			isa = PBXGroup;
 			children = (
+				BFEA46DC1C671E950053944F /* Welcome Page.png */,
 				BFEA46D81C6714200053944F /* 04B_30__.TTF */,
 				BFEA46D61C6714110053944F /* Minecraft.ttf */,
 				BFEA46D21C670EC60053944F /* Full Background .png */,
@@ -124,6 +129,7 @@
 				BFEA46A41C66CE950053944F /* Assets.xcassets */,
 				BFEA46A61C66CE950053944F /* LaunchScreen.storyboard */,
 				BFEA46A91C66CE950053944F /* Info.plist */,
+				BFEA46DA1C671E700053944F /* SignInViewController.swift */,
 			);
 			path = tamagotchi;
 			sourceTree = "<group>";
@@ -260,6 +266,7 @@
 			files = (
 				BFEA46A81C66CE950053944F /* LaunchScreen.storyboard in Resources */,
 				BFEA46D11C670B690053944F /* skinny.gif in Resources */,
+				BFEA46DD1C671E950053944F /* Welcome Page.png in Resources */,
 				BFEA46D71C6714110053944F /* Minecraft.ttf in Resources */,
 				BFEA46D31C670EC60053944F /* Full Background .png in Resources */,
 				BFEA46D91C6714200053944F /* 04B_30__.TTF in Resources */,
@@ -291,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFEA46DB1C671E700053944F /* SignInViewController.swift in Sources */,
 				BFEA46CD1C670A060053944F /* UIImage+Gif.swift in Sources */,
 				BFEA46A01C66CE940053944F /* ViewController.swift in Sources */,
 				BFEA469E1C66CE940053944F /* AppDelegate.swift in Sources */,
