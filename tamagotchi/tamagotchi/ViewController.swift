@@ -49,7 +49,6 @@ class ViewController: UIViewController {
         let imageName = "Welcome Page.png"
         let image = UIImage(named: imageName)
         let imageView = UIImageView(image: image!)
-        
         imageView.frame = CGRect(x: 0, y: 0, width: 375, height: 667)
         view.addSubview(imageView)
         
@@ -68,7 +67,7 @@ class ViewController: UIViewController {
     }
     
     func actioncall(Sender: UIButton!) {
-        let secondViewController:SignInViewController = SignInViewController()
+        let secondViewController:PermViewController = PermViewController()
         
         self.presentViewController(secondViewController, animated: true, completion: nil)
         
