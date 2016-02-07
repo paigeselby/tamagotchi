@@ -14,6 +14,9 @@
 		BFEA46A81C66CE950053944F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFEA46A61C66CE950053944F /* LaunchScreen.storyboard */; };
 		BFEA46B31C66CE950053944F /* tamagotchiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEA46B21C66CE950053944F /* tamagotchiTests.swift */; };
 		BFEA46BE1C66CE950053944F /* tamagotchiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEA46BD1C66CE950053944F /* tamagotchiUITests.swift */; };
+		BFEA46CD1C670A060053944F /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEA46CC1C670A060053944F /* UIImage+Gif.swift */; };
+		BFEA46D01C670B690053944F /* fat.gif in Resources */ = {isa = PBXBuildFile; fileRef = BFEA46CE1C670B690053944F /* fat.gif */; };
+		BFEA46D11C670B690053944F /* skinny.gif in Resources */ = {isa = PBXBuildFile; fileRef = BFEA46CF1C670B690053944F /* skinny.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		BFEA46B91C66CE950053944F /* tamagotchiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tamagotchiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFEA46BD1C66CE950053944F /* tamagotchiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tamagotchiUITests.swift; sourceTree = "<group>"; };
 		BFEA46BF1C66CE950053944F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFEA46CC1C670A060053944F /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		BFEA46CE1C670B690053944F /* fat.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = fat.gif; path = Assets.xcassets/fat.gif; sourceTree = "<group>"; };
+		BFEA46CF1C670B690053944F /* skinny.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = skinny.gif; path = Assets.xcassets/skinny.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		BFEA46911C66CE940053944F = {
 			isa = PBXGroup;
 			children = (
+				BFEA46CB1C6709B70053944F /* tamagotchiCommon */,
 				BFEA469C1C66CE940053944F /* tamagotchi */,
 				BFEA46B11C66CE950053944F /* tamagotchiTests */,
 				BFEA46BC1C66CE950053944F /* tamagotchiUITests */,
@@ -97,6 +104,8 @@
 		BFEA469C1C66CE940053944F /* tamagotchi */ = {
 			isa = PBXGroup;
 			children = (
+				BFEA46CE1C670B690053944F /* fat.gif */,
+				BFEA46CF1C670B690053944F /* skinny.gif */,
 				BFEA469D1C66CE940053944F /* AppDelegate.swift */,
 				BFEA469F1C66CE940053944F /* ViewController.swift */,
 				BFEA46A11C66CE950053944F /* Main.storyboard */,
@@ -123,6 +132,14 @@
 				BFEA46BF1C66CE950053944F /* Info.plist */,
 			);
 			path = tamagotchiUITests;
+			sourceTree = "<group>";
+		};
+		BFEA46CB1C6709B70053944F /* tamagotchiCommon */ = {
+			isa = PBXGroup;
+			children = (
+				BFEA46CC1C670A060053944F /* UIImage+Gif.swift */,
+			);
+			name = tamagotchiCommon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +247,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFEA46A81C66CE950053944F /* LaunchScreen.storyboard in Resources */,
+				BFEA46D11C670B690053944F /* skinny.gif in Resources */,
 				BFEA46A51C66CE950053944F /* Assets.xcassets in Resources */,
+				BFEA46D01C670B690053944F /* fat.gif in Resources */,
 				BFEA46A31C66CE950053944F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFEA46CD1C670A060053944F /* UIImage+Gif.swift in Sources */,
 				BFEA46A01C66CE940053944F /* ViewController.swift in Sources */,
 				BFEA469E1C66CE940053944F /* AppDelegate.swift in Sources */,
 			);
@@ -482,6 +502,7 @@
 				BFEA46C41C66CE950053944F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFEA46C51C66CE950053944F /* Build configuration list for PBXNativeTarget "tamagotchiTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +511,7 @@
 				BFEA46C71C66CE950053944F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFEA46C81C66CE950053944F /* Build configuration list for PBXNativeTarget "tamagotchiUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +520,7 @@
 				BFEA46CA1C66CE950053944F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
