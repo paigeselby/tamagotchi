@@ -96,13 +96,13 @@ class Main2ViewController: UIViewController {
         //        textFiled.borderStyle = UITextBorderStyle.Line
         self.view.addSubview(textFiled12)
         
-//        let buttonb = UIButton(type: UIButtonType.System) as UIButton
-//        buttonb.frame = CGRectMake(40, 40, 350, 700)
-//        //        button.backgroundColor = UIColor.whiteColor()
-//        buttonb.titleLabel!.font  =  UIFont(name: "System", size: 64)
-//        buttonb.setTitle("", forState: UIControlState.Normal)
-//        buttonb.addTarget(self, action: "actioncall:", forControlEvents: UIControlEvents.TouchUpInside)
-//        self.view.addSubview(buttonb)
+        let buttonb = UIButton(type: UIButtonType.System) as UIButton
+        buttonb.frame = CGRectMake(40, 90, 350, 700)
+        //        button.backgroundColor = UIColor.whiteColor()
+        buttonb.titleLabel!.font  =  UIFont(name: "System", size: 64)
+        buttonb.setTitle("", forState: UIControlState.Normal)
+        buttonb.addTarget(self, action: "actioncall:", forControlEvents: UIControlEvents.TouchUpInside)
+        self.view.addSubview(buttonb)
     }
     
     
